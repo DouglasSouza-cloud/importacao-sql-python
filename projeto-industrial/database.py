@@ -10,7 +10,7 @@ def conectar():
         #o drive tenta abrir uma conexao
         host= "localhost",
         user= "root",
-        password= "root",
+        password= "",
         database= "metalsul_industrial"
         )
     return conexao
